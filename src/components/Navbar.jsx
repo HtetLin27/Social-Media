@@ -48,14 +48,14 @@ function Navbar() {
         </Badge>
         <Avatar 
          sx={{width:30, height:30}}
-         src="https://images.pexels.com/photos/953457/pexels-photo-953457.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+         src="https://images.pexels.com/photos/6652959/pexels-photo-6652959.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
          onClick={e=>setOpen(true)}
          />
        </Icons>
        <UserBox   onClick={e=>setOpen(true)}>
        <Avatar
         sx={{width:30, height:30}}
-         src="https://images.pexels.com/photos/953457/pexels-photo-953457.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
+         src="https://images.pexels.com/photos/6652959/pexels-photo-6652959.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"/>
          <Typography variant='span'>Htet</Typography>
        </UserBox>
         </StyledToolbar>
